@@ -1,23 +1,24 @@
 const mongoose = require("mongoose");
-
-const MONGO_URL = "your mongo url"
-
-
-
-mongoose.connection.once("open", () => {
-  console.log("MongoDB connection ready");
-});
-
-mongoose.connection.on("error", (err) => {
-  console.error(err);
-});
+require("dotenv").config();
 
 async function mongoConnect() {
-  await mongoose.connect(MONGO_URL);
+  try {
+    await mongoose.connect(process.env.MONGO_URI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    console.log("MongoDB connection ready");
+  } catch (error) {
+    console.error("MongoDB connection error:", error);
+  }
 }
 
 async function mongoDisconnect() {
-  await mongoose.disconnect();
+  try {
+    await mongoose.disconnect();
+  } catch (error) {
+    console.error("MongoDB disconnection error:", error);
+  }
 }
 
 module.exports = {
