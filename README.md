@@ -1,4 +1,6 @@
-# NASA Mission Control Project ( YOU WANT A MISSION ? YOU LAUNCH IT  )
+# NASA Mission Control Project 
+
+# ( You Want a Mission ? You Launch It  )
 
 ## Launch Page
 Schedule a mission launch for interstellar travel to one of the Kepler Exoplanets.
