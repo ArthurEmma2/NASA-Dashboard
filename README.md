@@ -24,7 +24,7 @@ Discover the history of mission launches including SpaceX launches starting from
 ## Running the Project
 
 1. In the terminal, run: `npm run deploy`
-2. Browse to the mission control frontend at [localhost:8000](http://localhost:8000) and schedule an interstellar launch!
+2. Browse to the mission control frontend at [localhost:8002](http://localhost:8002) and schedule an interstellar launch!
 
 ## Docker
 
