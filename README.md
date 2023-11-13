@@ -19,6 +19,14 @@ Upcoming missions including both SpaceX launches and newly scheduled Zero to Mas
 ## History
 Discover the history of mission launches including SpaceX launches starting from the year 2006.
 
+## Technologies
+ - Javasctipt
+ - Docker
+ - React 
+ - Nasa API
+ - CSS
+
+
 ## Getting Started
 
 1. Ensure you have Node.js installed.
