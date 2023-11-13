@@ -25,7 +25,10 @@ Discover the history of mission launches including SpaceX launches starting from
  - React 
  - Nasa API
  - CSS
-
+ - Mongo DB
+ - Node JS
+ - Express JS
+   
 
 ## Getting Started
 
